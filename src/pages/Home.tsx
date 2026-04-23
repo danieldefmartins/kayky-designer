@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 import { ArrowRight, Flame, Sparkles, Hammer } from "lucide-react";
 
 const featuredWorks = [
+  { image: "/photos/IMG_9418.JPEG", title: "Butterfly Swing", category: "Public Art", description: "A monumental painted butterfly perched on curving stems \u2014 with a swing underneath" },
+  { image: "/photos/IMG_6967.JPEG", title: "Guitar Fire Pit", category: "Sculpture", description: "A full-scale guitar that comes alive at night \u2014 fire blazing through steel" },
+  { image: "/photos/IMG_1845.JPEG", title: "Sculptural Table", category: "Furniture", description: "An organic flowing metal base that turns a conference table into gallery art" },
   { image: "/photos/IMG_3925.jpg", title: "Steampunk Dolphin", category: "Sculpture", description: "Gears, springs, and raw steel forged into a leaping dolphin" },
-  { image: "/photos/IMG_6942.JPEG", title: "Steel Guitar", category: "Sculpture", description: "A full-scale guitar sculpted from sheet metal and ornamental iron" },
-  { image: "/photos/IMG_7650.JPEG", title: "Chain Table", category: "Furniture", description: "Suspended by chains, anchored by craft \u2014 a table like no other" },
-  { image: "/photos/IMG_5267.JPEG", title: "Garden Swing", category: "Outdoor", description: "Steel and wood swing set built to last generations" },
-  { image: "/photos/IMG_8134.JPEG", title: "Pizza Oven", category: "Outdoor", description: "Custom steel pizza oven \u2014 from workshop to backyard" },
-  { image: "/photos/IMG_9920.JPEG", title: "Church Signage", category: "Commercial", description: "Gold-finished custom signage and Star of David table" },
+  { image: "/photos/IMG_1897.JPEG", title: "Forged Bird Bowl", category: "Art", description: "A hand-forged iron bird cradling fruit \u2014 artistry at the smallest scale" },
+  { image: "/photos/IMG_8184.JPEG", title: "Floating Chair", category: "Furniture", description: "Suspended by chains, defying gravity \u2014 a seat that's also a sculpture" },
 ];
 
 const fadeUp = {
@@ -25,10 +25,10 @@ export default function Home() {
       <section className="relative h-screen flex items-end overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/photos/e422d81e-e80d-4a60-883a-00d4c59b9522.jpg"
-            alt="Kayky Dykyman sitting on his hand-forged curved staircase masterpiece"
+            src="/photos/IMG_7036.jpg"
+            alt="Kayky Dykyman standing before his grand two-story curved staircase masterpiece"
             className="w-full h-full object-cover img-cinematic"
-            style={{ objectPosition: "center 25%" }}
+            style={{ objectPosition: "center 30%" }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-r from-primary/60 to-transparent" />

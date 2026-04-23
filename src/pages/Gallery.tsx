@@ -15,27 +15,51 @@ const categories = ["All", "Sculptures", "Furniture", "Staircases", "Outdoor", "
 
 const pieces: Piece[] = [
   // Sculptures
+  { src: "/photos/IMG_9418.JPEG", title: "Butterfly Swing", category: "Sculptures", description: "Monumental painted butterfly on curving steel stems with a swing seat \u2014 public art that invites play", available: false },
+  { src: "/photos/IMG_6967.JPEG", title: "Guitar Fire Pit", category: "Sculptures", description: "A steel guitar that blazes to life at night \u2014 fire pouring through the sound hole", available: true },
   { src: "/photos/IMG_3925.jpg", title: "Steampunk Dolphin", category: "Sculptures", description: "A leaping dolphin forged from gears, springs, and reclaimed metal parts", available: true },
-  { src: "/photos/IMG_6942.JPEG", title: "Steel Guitar", category: "Sculptures", description: "Full-scale guitar sculpted from sheet metal with ornamental scrollwork base", available: true },
-  { src: "/photos/IMG_0984.JPEG", title: "Metal Art Piece", category: "Sculptures", description: "Custom metal sculpture \u2014 raw steel shaped into form", available: true },
+  { src: "/photos/IMG_6942.JPEG", title: "Steel Guitar Sculpture", category: "Sculptures", description: "Full-scale guitar sculpted from sheet metal with ornamental scrollwork base", available: true },
+  { src: "/photos/IMG_1897.JPEG", title: "Forged Bird Bowl", category: "Sculptures", description: "A hand-forged iron bird cradling fruit \u2014 photographed on an anvil where it was born", available: true },
+  { src: "/photos/IMG_8804.JPEG", title: "Geometric Wolf", category: "Sculptures", description: "Wireframe wolf head wall art \u2014 modern geometric design in raw steel", available: true },
+  { src: "/photos/IMG_8600.JPEG", title: "Metal Warriors", category: "Sculptures", description: "Miniature warrior figurines with shields and spears \u2014 whimsical tabletop art", available: true },
+  { src: "/photos/IMG_3125.JPEG", title: "Minion Fire Pit", category: "Sculptures", description: "A playful Minion-shaped wood burner \u2014 fire glowing through the mouth", available: true },
+  { src: "/photos/IMG_0984.JPEG", title: "Custom Star Logo", category: "Sculptures", description: "Fabricated metal star with embedded letter \u2014 sports fan art", available: true },
 
   // Furniture
-  { src: "/photos/IMG_7650.JPEG", title: "Chain Suspension Table", category: "Furniture", description: "Side table with wood top suspended by steel chains from a pyramid center", available: true },
+  { src: "/photos/IMG_1845.JPEG", title: "Sculptural Conference Table", category: "Furniture", description: "Glossy organic-form flowing metal base with glass top \u2014 gallery-level furniture design", available: false },
+  { src: "/photos/IMG_7650.JPEG", title: "Chain Suspension Table", category: "Furniture", description: "Wood top suspended by steel chains from a pyramid center \u2014 conversation starter", available: true },
+  { src: "/photos/IMG_8184.JPEG", title: "Floating Chain Chair", category: "Furniture", description: "Steel frame with chain suspension and wood seat panels \u2014 a chair that's also a sculpture", available: true },
+  { src: "/photos/IMG_6319.JPEG", title: "Cantilevered Z-Chair", category: "Furniture", description: "Black steel Z-frame with multi-tone wood seat \u2014 architectural seating", available: true },
+  { src: "/photos/IMG_5357.JPEG", title: "Industrial Dining Table", category: "Furniture", description: "Dark wood top with heavy trapezoidal steel legs \u2014 commanding presence in any room", available: true },
+  { src: "/photos/IMG_5298.JPEG", title: "Swing Dining Table", category: "Furniture", description: "Rope-hung seats around a central steel table \u2014 luxury backyard dining reimagined", available: false },
+  { src: "/photos/IMG_7612.JPEG", title: "Faceted Side Tables", category: "Furniture", description: "Geometric folded-steel forms \u2014 diamond-cut faceted pair", available: true },
   { src: "/photos/IMG_5267.JPEG", title: "A-Frame Garden Swing", category: "Furniture", description: "Double steel swing set with wood seats \u2014 built for generations", available: true },
-  { src: "/photos/IMG_9920.JPEG", title: "Star of David Console", category: "Furniture", description: "Gold-finished console table with Star of David base for TDM Church", available: false },
+  { src: "/photos/IMG_2641.JPEG", title: "Gold Baby Crib", category: "Furniture", description: "Ornate gold wrought-iron crib \u2014 a family heirloom forged with love", available: false },
+  { src: "/photos/IMG_5168.JPEG", title: "Chrome X-Trestle Table", category: "Furniture", description: "Large dining table with polished chrome X-trestle steel base", available: true },
+  { src: "/photos/IMG_1582.JPEG", title: "Farmhouse Bar Stools", category: "Furniture", description: "Custom industrial wood-and-metal bar stools in a modern farmhouse kitchen", available: true },
+  { src: "/photos/IMG_8023.JPEG", title: "I-Beam Bench", category: "Furniture", description: "Walnut top with I-beam steel legs \u2014 industrial simplicity", available: true },
+  { src: "/photos/IMG_1067.JPEG", title: "Church Podium", category: "Furniture", description: "Custom curved stainless podium with flame emblem \u2014 for a house of worship", available: false },
 
   // Staircases
+  { src: "/photos/IMG_7036.jpg", title: "Grand Curved Staircase", category: "Staircases", description: "Two-story curved staircase with ornate wrought-iron scrollwork in a luxury marble foyer", available: false },
   { src: "/photos/e422d81e-e80d-4a60-883a-00d4c59b9522.jpg", title: "Peacock Scrollwork Staircase", category: "Staircases", description: "Grand curved staircase with hand-forged peacock fan scrollwork and copper leaf accents", available: false },
-  { src: "/photos/IMG_4150.JPEG", title: "Curved Staircase Frame", category: "Staircases", description: "Raw curved staircase stringer in the workshop \u2014 the skeleton before the art", available: false },
-  { src: "/photos/IMG_0023.JPEG", title: "Ornamental Railing", category: "Staircases", description: "Curved staircase with hand-forged ornamental iron scrollwork", available: false },
+  { src: "/photos/IMG_2312.JPEG", title: "Modern Geometric Railing", category: "Staircases", description: "Angular intersecting bars with LED-lit wooden treads \u2014 contemporary architectural iron", available: false },
+  { src: "/photos/IMG_4150.JPEG", title: "Curved Frame in Workshop", category: "Staircases", description: "Raw curved staircase stringer \u2014 the steel skeleton before the art begins", available: false },
+  { src: "/photos/IMG_3086.JPEG", title: "Fireplace Screen", category: "Staircases", description: "Elaborate scrollwork fireplace screen on brick surround \u2014 traditional ironwork mastery", available: true },
+  { src: "/photos/IMG_1533.JPEG", title: "Scrollwork Detail", category: "Staircases", description: "Close-up of brass and steel scrollwork on a fireplace door \u2014 craftsmanship you can feel", available: false },
 
   // Outdoor
-  { src: "/photos/IMG_8134.JPEG", title: "Custom Pizza Oven", category: "Outdoor", description: "Handcrafted steel pizza oven with side grill \u2014 the heart of the backyard", available: true },
-  { src: "/photos/IMG_2641.JPEG", title: "Hexagon Fire Pit", category: "Outdoor", description: "Hexagonal steel fire pit with adjustable grill grate", available: true },
+  { src: "/photos/IMG_8895.JPEG", title: "A-Frame Fireplace", category: "Outdoor", description: "Tall steel outdoor fireplace at golden hour \u2014 the centerpiece of evening gatherings", available: true },
+  { src: "/photos/IMG_8134.JPEG", title: "Custom Pizza Oven", category: "Outdoor", description: "Handcrafted steel pizza oven with side grill \u2014 from workshop to backyard", available: true },
+  { src: "/photos/IMG_2507.JPG", title: "Hexagon Fire Pit", category: "Outdoor", description: "Hexagonal steel fire pit with adjustable grill grate \u2014 industrial warmth", available: true },
+  { src: "/photos/IMG_7788.jpg", title: "Deck Swing Table", category: "Outdoor", description: "Swing dining setup on a wooden deck overlooking a yard \u2014 outdoor luxury", available: false },
+  { src: "/photos/IMG_5229.jpg", title: "Patio Furniture Set", category: "Outdoor", description: "Modern steel and wood bench, chairs, and coffee table for the patio", available: true },
 
   // Commercial
-  { src: "/photos/IMG_6319.JPEG", title: "Custom Metal Signage", category: "Commercial", description: "Gold-finished custom business signage and decorative metalwork" },
-  { src: "/photos/IMG_6445.JPEG", title: "Architectural Metalwork", category: "Commercial", description: "Custom commercial iron installations and structural art" },
+  { src: "/photos/IMG_0208.JPG", title: "Mr. Crepe Sign", category: "Commercial", description: "Cursive metal script signage with track lighting \u2014 restaurant branding in steel", available: false },
+  { src: "/photos/IMG_9920.JPEG", title: "TDM Church Installation", category: "Commercial", description: "Gold-finished circular sign and Star of David console table for TDM Church", available: false },
+  { src: "/photos/IMG_2468.JPG", title: "TDM Students Sign", category: "Commercial", description: "Large metal lettering on reclaimed wood pallet wall \u2014 modern ministry branding", available: false },
+  { src: "/photos/IMG_9210.JPEG", title: "Custom Mailbox Post", category: "Commercial", description: "Curved steel mailbox post with house number \u2014 curb appeal in iron", available: true },
 ];
 
 function GalleryImage({ piece, index, onClick }: { piece: Piece; index: number; onClick: () => void }) {
