@@ -227,11 +227,24 @@ function Lightbox({ pieces, index, onClose, onPrev, onNext }: {
             <h3 className="text-display text-xl sm:text-2xl text-white mb-1">{piece.title}</h3>
             <p className="text-white/40 text-sm">{piece.description}</p>
           </div>
-          <Link href="/contact">
-            <button className="shrink-0 bg-accent text-primary px-4 py-2.5 text-xs font-body font-semibold tracking-wider uppercase hover:bg-accent-light transition-colors">
-              {piece.available ? "Inquire" : "Similar Piece"}
-            </button>
-          </Link>
+          <div className="flex flex-col gap-2 shrink-0">
+            {piece.available && (
+              <Link href="/contact">
+                <button className="w-full bg-accent text-primary px-4 py-2 text-xs font-body font-semibold tracking-wider uppercase hover:bg-accent-light transition-colors">
+                  Buy This Piece
+                </button>
+              </Link>
+            )}
+            <Link href="/contact">
+              <button className={`w-full px-4 py-2 text-xs font-body tracking-wider uppercase transition-colors ${
+                piece.available
+                  ? "border border-white/20 text-white/60 hover:border-accent hover:text-accent"
+                  : "bg-accent text-primary font-semibold hover:bg-accent-light"
+              }`}>
+                {piece.available ? "Order Similar" : "Order Something Like This"}
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </motion.div>
