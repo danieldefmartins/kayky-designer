@@ -22,7 +22,7 @@ export default function Footer() {
                 { href: "/", label: "Home" },
                 { href: "/story", label: "My Story" },
                 { href: "/gallery", label: "Gallery" },
-                { href: "/contact", label: "Commission" },
+                { href: "/contact", label: "Custom Order" },
               ].map((l) => (
                 <Link key={l.href} href={l.href}>
                   <span className="text-sm text-white/40 hover:text-accent transition-colors cursor-pointer">

@@ -48,7 +48,7 @@ export default function Contact() {
         <div className="relative z-10 px-5 sm:px-8 lg:px-16 pb-10 sm:pb-14 max-w-3xl">
           <motion.div {...fadeUp}>
             <div className="line-accent mb-5" />
-            <p className="text-accent text-xs tracking-[0.3em] uppercase font-body mb-3">Commission</p>
+            <p className="text-accent text-xs tracking-[0.3em] uppercase font-body mb-3">Custom Order</p>
             <h1 className="text-display text-3xl sm:text-4xl md:text-5xl text-white leading-snug">
               Tell me what you see.
               <br />

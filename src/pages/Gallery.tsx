@@ -123,7 +123,7 @@ export default function Gallery() {
           <p className="text-accent text-xs tracking-[0.3em] uppercase font-body mb-3">Gallery</p>
           <h1 className="text-display text-3xl sm:text-4xl text-white mb-2">The Collection</h1>
           <p className="text-white/40 text-sm max-w-lg">
-            Browse Kayky's creations. Available pieces can be purchased. Every item is also available as a custom commission.
+            Browse Kayky's creations. Available pieces can be purchased. Every item is also available as a custom order.
           </p>
         </div>
       </section>
@@ -160,7 +160,7 @@ export default function Gallery() {
                   </p>
                   <Link href="/contact">
                     <button className="w-full bg-accent text-primary py-2.5 text-xs font-body font-semibold tracking-wider uppercase hover:bg-accent-light transition-colors flex items-center justify-center gap-1">
-                      Start a Commission <ArrowRight className="w-3 h-3" />
+                      Start Your Custom Order <ArrowRight className="w-3 h-3" />
                     </button>
                   </Link>
                 </div>

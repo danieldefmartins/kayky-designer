@@ -60,7 +60,7 @@ export default function Home() {
               </Link>
               <Link href="/contact">
                 <button className="border border-white/20 text-white/80 px-6 py-3.5 text-sm font-body tracking-wider uppercase hover:border-accent hover:text-accent transition-colors">
-                  Commission a Piece
+                  Order Your Custom Piece
                 </button>
               </Link>
             </div>
@@ -225,7 +225,7 @@ export default function Home() {
           </p>
           <Link href="/contact">
             <button className="bg-accent text-primary px-8 py-4 text-sm font-body font-semibold tracking-wider uppercase hover:bg-accent-light transition-colors">
-              Start Your Commission
+              Start Your Custom Order
               <ArrowRight className="inline-block w-4 h-4 ml-2" />
             </button>
           </Link>

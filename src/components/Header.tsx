@@ -6,7 +6,7 @@ const navItems = [
   { path: "/", label: "Home" },
   { path: "/story", label: "Story" },
   { path: "/gallery", label: "Gallery" },
-  { path: "/contact", label: "Commission" },
+  { path: "/contact", label: "Custom Order" },
 ];
 
 export default function Header() {

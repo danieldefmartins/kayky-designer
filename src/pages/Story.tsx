@@ -127,7 +127,7 @@ export default function Story() {
                 a backyard. Church signs finished in gold that welcome thousands every Sunday.
               </p>
               <p>
-                For Kayky, every commission starts the same way — a conversation. "Tell me what you
+                For Kayky, every custom piece starts the same way — a conversation. "Tell me what you
                 see in your mind," he says. "And I'll make it real."
               </p>
             </div>
@@ -155,7 +155,7 @@ export default function Story() {
             </p>
             <Link href="/contact">
               <button className="bg-accent text-primary px-8 py-3.5 text-sm font-body font-semibold tracking-wider uppercase hover:bg-accent-light transition-colors">
-                Commission a Piece
+                Order Your Custom Piece
                 <ArrowRight className="inline-block w-4 h-4 ml-2" />
               </button>
             </Link>
